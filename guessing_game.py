@@ -15,7 +15,7 @@ def start_game():
     while True:
         random_number_to_guess = random.randint(LOWER_BOUND, UPPER_BOUND)
         turns_taken = 1
-        if 50high_score != HIGH_SCORE_DEFAULT:
+        if high_score != HIGH_SCORE_DEFAULT:
             print("The current high score is: {}".format(high_score))
         #As a player of the game, I should be continuously prompted for a guess until I get it right.
         while True:
