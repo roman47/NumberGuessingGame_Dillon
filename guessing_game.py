@@ -49,6 +49,7 @@ def start_game():
     #As a player of the game, after I guess correctly I should be prompted if I would like to play again.
         play_again = input("Enter 'Y' if you would like to play again, enter any other key(s) if you don't")
         if play_again.lower() != "y":
+            print("Fare the well. History is a wheel, for the nature of man is fundamentally unchanging. What has happened before will perforce happen again.")
             break
 if __name__ == '__main__':
     # Kick off the program by calling the start_game function.
